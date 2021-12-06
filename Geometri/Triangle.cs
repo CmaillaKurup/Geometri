@@ -1,24 +1,30 @@
 namespace Geometri
 {
-    public class Triangle
+    public class Triangle : Square
     {
-        private double a { get; }
+        private double _a;
+        public double a
+        {
+            get
+            {
+                return _a;
+            }
+        }
         private double b { get; }
         private double c { get; }
 
-        public Triangle(double a, double b, double c)
+        public Triangle(double a, double b, double c) : base(a)
         {
-            this.a = a;
             this.b = b;
             this.c = c;
         }
         
-        public double Perimeter()
+        public override double Perimeter()
         {
             return a + b + c;
         }
 
-        public double Areal()
+        public override double Areal()
         {
             return 0.5 * a * b;
         }
