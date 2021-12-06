@@ -4,12 +4,11 @@
     <projectFile>Geometri/Geometri.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffd1abf1-0aeb-4587-a0b3-4a16a03295ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Geometri/Parallelogram.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometri/Rectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometri/Square.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometri/Trapezoid.cs" afterDir="false" />
+    <list default="true" id="ffd1abf1-0aeb-4587-a0b3-4a16a03295ef" name="Default Changelist" comment="Opgaverne til og med D er løst - dog virker areal udregningen for paralellogram ikke">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Geometri/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Geometri/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geometri/Parallelogram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geometri/Parallelogram.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Geometri/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geometri/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geometri/Trapezoid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Geometri/Trapezoid.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +24,10 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Geometri/Square.cs" />
-      <option value="$PROJECT_DIR$/Geometri/Trapezoid.cs" />
       <option value="$PROJECT_DIR$/Geometri/Rectangle.cs" />
-      <option value="$PROJECT_DIR$/Geometri/Program.cs" />
       <option value="$PROJECT_DIR$/Geometri/Parallelogram.cs" />
+      <option value="$PROJECT_DIR$/Geometri/Program.cs" />
+      <option value="$PROJECT_DIR$/Geometri/Trapezoid.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21uCJ1oQpgHIE3Ukhg6stmRkuuX" />
@@ -71,8 +70,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638781512197</updated>
-      <workItem from="1638781523838" duration="5985000" />
+      <workItem from="1638781523838" duration="8829000" />
     </task>
+    <task id="LOCAL-00001" summary="Opgaverne til og med D er løst - dog virker areal udregningen for paralellogram ikke">
+      <created>1638790519612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638790519612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
@@ -90,5 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Opgaverne til og med D er løst - dog virker areal udregningen for paralellogram ikke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opgaverne til og med D er løst - dog virker areal udregningen for paralellogram ikke" />
   </component>
 </project>

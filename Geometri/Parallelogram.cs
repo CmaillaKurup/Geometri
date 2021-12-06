@@ -19,9 +19,11 @@ namespace Geometri
             this.b = b;
         }
         
-        //TODO: come back and make sure that the formular works - at the moment the result only gives 0
+        //TODO: come back and make sure that the form works - at the moment the result only gives 0
         public override double Areal()
         {
+            //the formel should be something like
+            //a * b * sin(20)
             return a * b * Math.Sin(20.0);
         }
     }

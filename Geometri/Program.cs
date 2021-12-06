@@ -14,9 +14,9 @@ namespace Geometri
             Rectangle ra2 = new Rectangle(3,4);
             Rectangle ra3 = new Rectangle(5,6);
 
-            Trapezoid tp1 = new Trapezoid(1, 2);
-            Trapezoid tp2 = new Trapezoid(3, 4);
-            Trapezoid tp3 = new Trapezoid(5, 6);
+            Trapezoid tp1 = new Trapezoid(10, 9, 8, 9);
+            Trapezoid tp2 = new Trapezoid(3, 4, 5, 6);
+            Trapezoid tp3 = new Trapezoid(5, 6, 7, 8);
             
             Parallelogram pg1 = new Parallelogram(1, 2);
             Parallelogram pg2 = new Parallelogram(3, 4);
