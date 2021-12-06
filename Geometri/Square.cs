@@ -9,7 +9,7 @@ namespace Geometri
             this.a = a;
         }
 
-        public virtual double Perimeter()
+        public double Perimeter()
         {
             return a * 4;
         }

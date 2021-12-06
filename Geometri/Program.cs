@@ -22,6 +22,10 @@ namespace Geometri
             Parallelogram pg2 = new Parallelogram(3, 4);
             Parallelogram pg3 = new Parallelogram(5, 6);
 
+            Triangle ta1 = new Triangle(1, 2, 3);
+            Triangle ta2 = new Triangle(4, 5, 6);
+            Triangle ta3 = new Triangle(7, 8, 9);
+
 
             //Testing Square
             Console.WriteLine("Square Perimeter: " + sq1.Perimeter());
@@ -54,6 +58,14 @@ namespace Geometri
             Console.WriteLine("Parallelogram Areal: " + pg2.Areal());
             Console.WriteLine("Parallelogram Perimeter: " + pg3.Perimeter());
             Console.WriteLine("Parallelogram Areal: " + pg3.Areal());
+            
+            //Testing Triangle
+            Console.WriteLine("Triangle Perimeter: " + ta1.Perimeter());
+            Console.WriteLine("Triangle Areal: " + ta1.Areal());
+            Console.WriteLine("Triangle Perimeter: " + ta2.Perimeter());
+            Console.WriteLine("Triangle Areal: " + ta2.Areal());
+            Console.WriteLine("Triangle Perimeter: " + ta3.Perimeter());
+            Console.WriteLine("Triangle Areal: " + ta3.Areal());
         }
     }
 }
