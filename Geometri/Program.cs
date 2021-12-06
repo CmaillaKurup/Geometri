@@ -35,8 +35,7 @@ namespace Geometri
             {
                 Console.WriteLine();
             }
-
-            /*
+            
             //Testing Square
             Console.WriteLine("Square Perimeter: " + sq1.Perimeter());
             Console.WriteLine("Square Areal: " + sq1.Areal());
@@ -76,7 +75,6 @@ namespace Geometri
             Console.WriteLine("Triangle Areal: " + ta2.Areal());
             Console.WriteLine("Triangle Perimeter: " + ta3.Perimeter());
             Console.WriteLine("Triangle Areal: " + ta3.Areal());
-            */
         }
     }
 }
